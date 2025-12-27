@@ -7,12 +7,12 @@ import os
 from fractions import Fraction
 
 # ==== CONFIG ====
-VIDEO_PATH = r"C:\Users\hp\OneDrive\Desktop\robo_arm_1920x1080_25fps.mp4"
+VIDEO_PATH = r"C:\Users\hp\Desktop\robo_arm_1920x1080_25fps.mp4"
 SERVER_IP = "127.0.0.1"
 SERVER_PORT = 5000
 ENCODED_DIR = r"C:\Users\hp\OneDrive\Desktop\Video Streaming Pipeline\Encoded"
 # HEVC Encoding Parameters (YOU CAN TUNE THESE)
-CRF = "51"              # lower = better quality, 18–28 good range, range: 0–51
+CRF = "51"              # lower = better quality, 18-28 good range, range: 0-51
 BITRATE = "2000k"       # override CRF if needed Examples: "500k", "2000k", "5M"
 PRESET = "ultrafast"    # ultrafast(real-time but larger bitrate), superfast, veryfast, medium, slow(best compression but very slow)
 GOP = "30"              # keyframe interval
