@@ -71,7 +71,7 @@ Each codec directory contains its own sender and receiver scripts.
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 General dependencies (may vary by codec):
 
